@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地运行配置：会写入真实 API Key，禁止提交；模板见 config.example.json
+config.json
+
+# 运行时生成
+logs/
+status.json
+
+# 缓存 / 构建产物
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# IDE / 系统
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini
