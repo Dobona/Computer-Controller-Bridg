@@ -1,0 +1,38 @@
+{
+  "transport": "stdio",
+  "http": {
+    "host": "127.0.0.1",
+    "port": 8765,
+    "token": ""
+  },
+  "input": {
+    "backend": "sendinput",
+    "move_step_ms": 10,
+    "click_interval_ms": 50,
+    "max_action_duration_s": 30,
+    "max_click_rate_per_s": 20
+  },
+  "safety": {
+    "panic_hotkey": ["ctrl", "alt", "shift", "esc"],
+    "release_keys_on_exit": true,
+    "confirm_mode": false
+  },
+  "screen": {
+    "save_screenshots": false,
+    "uia": { "enabled": true },
+    "ocr": { "enabled": true },
+    "vlm": {
+      "enabled": false,
+      "endpoint": "",
+      "api_key": "",
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "timeout_s": 180,
+      "max_tokens": 2048,
+      "cache_ttl_s": 5
+    }
+  },
+  "log": {
+    "level": "info",
+    "audit": true
+  }
+}

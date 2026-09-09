@@ -1,0 +1,6 @@
+# Computer Controller - development/test dependencies
+# Install with: .venv\Scripts\python.exe -m pip install -r requirements-dev.txt
+# NOTE: keep this file ASCII-only (see requirements.txt note).
+
+-r requirements.txt
+pytest==9.1.1

@@ -1,0 +1,12 @@
+# Computer Controller - runtime dependencies
+# start.bat creates a virtual environment and installs this list on first run.
+# Exact pins to the versions verified in the project venv (2026-08-31).
+# This makes installs reproducible and protects against supply-chain drift.
+# NOTE: keep this file ASCII-only - pip reads it with the system locale encoding.
+
+fastmcp==3.4.7
+pillow==12.3.0
+pystray==0.19.5
+comtypes==1.4.16
+rapidocr==3.9.2
+onnxruntime==1.29.0
