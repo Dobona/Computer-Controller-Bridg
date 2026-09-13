@@ -1,4 +1,4 @@
-# Computer-Controller-Bridg 又名 Codex操（作）伴（侣）
+# Computer Controller Bridge 又名 Codex操（作）伴（侣）
 
 一个运行在 Windows 本机的轻量级电脑控制服务：通过 [MCP](https://modelcontextprotocol.io/)（Model Context Protocol，stdio 传输）把真实的鼠标、键盘与屏幕理解能力暴露给 AI 客户端（如 Codex、Claude 等支持 MCP 的应用）。
 
@@ -213,4 +213,3 @@ set SILICONFLOW_API_KEY=your-key-here
 ## 免责声明
 
 本项目仅用于受控环境下的桌面自动化。使用者须确保拥有对目标机器的操作权限，并对所有操作及其后果负责。作者不对因误用、误操作造成的任何数据损失或安全事件承担责任。
-
